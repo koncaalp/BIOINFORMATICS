@@ -5,14 +5,14 @@ from numpy import Inf
 from sympy import substitution
 #subMatrix here
 
-# def scorePair(seq1, seq2, subMatrix):
-#     assert seq1 == seq2, "Sequences should be equal in length"
-#     score = 0
-#     for i in range(0,len(seq1)):
-#         nucleotide1 = seq1[i]
-#         nucleotide2 = seq2[i]
-#         score += subMatrix[nucleotide1][nucleotide2]
-#     return score
+def scorePair(seq1, seq2, subMatrix):
+    assert seq1 == seq2, "Sequences should be equal in length"
+    score = 0
+    for i in range(0,len(seq1)):
+        nucleotide1 = seq1[i]
+        nucleotide2 = seq2[i]
+        score += subMatrix[nucleotide1][nucleotide2]
+    return score
 
 
 seq1 = "ATGCGCTGAC"
