@@ -16,7 +16,7 @@ subMatrix = {
 }
 
 def scorePair(seq1, seq2, subMatrix,gapOpen=-8,gapExtension=-6):
-    assert len(seq1) == len(seq2), "Sequences should be equal in length"
+    assert len(seq1) == len(seq2), "Sequences should be equal in length"  
     score = 0
     for i in range(0,len(seq1)):
         nucleotide1 = seq1[i]
