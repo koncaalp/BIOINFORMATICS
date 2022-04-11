@@ -1,4 +1,4 @@
-from sympy import sequence
+# from sympy import sequence
 
 
 def fastareader(inputFile):
